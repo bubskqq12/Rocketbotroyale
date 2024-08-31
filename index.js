@@ -13,7 +13,7 @@ app.get("/chess/*", (req, res, next) => {
 app.get("/*", (req, res, next) => {
   //const pathSegments = req.path.split('/');
  // const rocketPath = pathSegments[2]
-  https.request(new URL("https://mathsspot.com/" + req.path), (resp) => {
+  https.request(new URL("https://rocketbotroyale2.winterpixel.io/" + req.path), (resp) => {
     res.contentType(resp.headers["content-type"])
     resp.pipe(res)
   }).end()
