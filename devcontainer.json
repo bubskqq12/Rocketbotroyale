@@ -1,0 +1,2 @@
+
+{ "name": "Rocketbotroyale", "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye", "postCreateCommand": "npm install", "customizations": { "vscode": { "extensions": ["dbaeumer.vscode-eslint"] } } }
